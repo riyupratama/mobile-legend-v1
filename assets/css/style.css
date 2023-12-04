@@ -1,0 +1,85 @@
+body{
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+h1, h2, h3{
+    color: rgb(175, 65, 84);
+}
+
+a{
+    color: rgb(175, 65, 84);
+}
+.add-shadow{
+    box-shadow: rgba(60, 64, 67, 0.2) 0px 1px 2px 0px;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 2;
+}
+
+.navbar-nav a{
+    transition: 0.5s;
+}
+
+.navbar-nav a:hover{
+    margin-top: -5px;
+    color: rgb(175, 65, 84) !important;
+}
+
+#jumbotron{
+    background-color: #ede7e1;
+    padding-bottom: 20px;
+}
+.first-info .title{
+    font-size: 2.5em;
+    color: rgb(175, 65, 84);
+}
+
+.first-info .info{
+    font-size: 1.5em;
+}
+
+.first-button-group{
+    margin-top: 40px;
+}
+
+.first-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(175, 65, 84);
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.outline-red{
+    background-color: #ede7e1 !important;
+    outline: 2px solid rgb(175, 65, 84);
+    padding: calc(10px 20px - 2px);
+}
+
+.button-hero{
+    transition: 0.6s;
+}
+
+.button-hero:hover{
+    color: red;
+}
+.btn-items{
+    padding: 10px 20px;
+    background-color: rgb(175, 65, 84);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+.btn-items:hover{
+    color: rgb(175, 65, 84);
+    background-color: #fff;
+    outline: 1px solid rgb(175, 65, 84);
+}
+
+#tutorial{
+    background-color: #ede7e1;
+}
